@@ -1,0 +1,49 @@
+name: Publish Wiki
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  deploy-wiki:
+    name: Sync /docs to Github Wiki
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+
+      - name: Clone the wiki repository
+        run: |
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki-repo
+          rm -rf wiki-repo/*
+          cp -r docs/* wiki-repo/
+
+      - name: Commit changes and push to wiki
+        run: |
+          cd wiki-repo
+          if [[ `git status --porcelain` ]]; then
+            git add .
+            git commit -m "🚀 Deploying PR #${{ github.event.pull_request.number }} to wiki"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Deployment summary
+        run: |
+          echo "## 📚 Wiki Deployment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **PR Number**: #${{ github.event.pull_request.number }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Merged by**: ${{ github.event.pull_request.merged_by.login }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Deploy Time**: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Wiki URL**: https://github.com/${{ github.repository }}/wiki" >> $GITHUB_STEP_SUMMARY
