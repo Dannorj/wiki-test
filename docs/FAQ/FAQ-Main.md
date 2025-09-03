@@ -1,3 +1,3 @@
 # This is a FAQ PAGE
 
-![CSS LOGO](/images/css.png "CSS LOGO")
+![Displayed GH Logo Name](./images/FAQ/gh.svg.png "GH TITLE")
