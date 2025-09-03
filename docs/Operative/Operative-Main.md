@@ -1,3 +1,3 @@
 # This is a operative docs page
 
-![Image name](/images/ "Image title")
+![CSS LOGO NAME](./images/css.png "CSS LOGO TITLE")
