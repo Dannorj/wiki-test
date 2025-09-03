@@ -1,4 +1,13 @@
-# This is a test of a document created in the main repo
+# Welcome to the Wiki
+
+## Table of Contents
+
+- [FAQ](FAQ) - Frequently Asked Questions and Troubleshooting
+- [Internal Documentation](InternalDoc) - Internal team documentation
+- [Operative Documentation](OperativeDoc) - Operational procedures
+- [Template Guide](TemplateMD) - Markdown template examples
+
+---
 
 ## Modified again from a second new-branch-two
 

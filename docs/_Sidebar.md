@@ -1,7 +1,9 @@
 # Here are the links for other files in the same repo
 
-## [FAQ](/FAQ/Troubleshooting/FAQ.md)
+## [FAQ](FAQ-Main)
 
-## [Internal Docs](/InternalDocumentation/InternalDoc.md)
+## [Internal Docs](Internal-Main)
 
-## [Operative Docs](/OperativeDocumentation/OperativeDoc.md)
+## [Operative Docs](Operative-Main)
+
+## [Template MD](FAQ-TemplateMD)
