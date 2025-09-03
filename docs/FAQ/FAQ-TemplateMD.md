@@ -72,7 +72,7 @@ Link to other titles: [Title 1](#this-is-a-title-1).
 
 This is how an image is inserted
 
-![Image name](../images/css.png "Image title")
+![Image name](/images/css.png "Image title")
 
 This is how a table is created
 

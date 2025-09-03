@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-- [FAQ](FAQ) - Frequently Asked Questions and Troubleshooting
-- [Internal Documentation](InternalDoc) - Internal team documentation
-- [Operative Documentation](OperativeDoc) - Operational procedures
-- [Template Guide](TemplateMD) - Markdown template examples
+- [FAQ](FAQ-Main) - Frequently Asked Questions and Troubleshooting
+- [Internal Documentation](Internal-Main) - Internal team documentation
+- [Operative Documentation](Operative-Main) - Operational procedures
+- [Template Guide](FAQ-TemplateMD) - Markdown template examples
 
 ---
 
@@ -23,6 +23,6 @@ This is a sample text <br> with a break line
 
 > Make sure to read it
 
-![CSS LOGO](images/css.png "CSS LOGO")
+![CSS LOGO](/images/css.png "CSS LOGO")
 
-![RHF](images/rhf.png "RHF")
+![RHF](/images/rhf.png "RHF")
