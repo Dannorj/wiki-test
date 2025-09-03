@@ -64,15 +64,15 @@ Second break
 
 If you need to create a link either for a URL or an internal document you can use
 
-[Link text](URL)
+[Link text](https://google.com)
 
 Link to other titles: [Title 1](#this-is-a-title-1).
 
-[Link to other document](/Home.md)
+[Link to other document](Home)
 
 This is how an image is inserted
 
-![Image name](/images/css.png "Image title")
+![Image name](./images/css.png "Image title")
 
 This is how a table is created
 

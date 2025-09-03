@@ -23,6 +23,8 @@ This is a sample text <br> with a break line
 
 > Make sure to read it
 
-![CSS LOGO](/images/css.png "CSS LOGO")
+![CSS LOGO](./images/css.png "CSS LOGO")
 
-![RHF](/images/rhf.png "RHF")
+![RHF](images/rhf.png "RHF")
+
+![CSS LOGO](../images/css.png "CSS LOGO 2")
