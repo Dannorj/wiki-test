@@ -12,9 +12,9 @@ For adding line breaks we can use<br/> for example
 
 For a bold text you need to add **double asterisks** or **double underscores** around the text.
 
-For italic text, you need to add _single asterisks_ or _single underscores_ around the text.
+For italic text, you need to add *single asterisks* or _single underscores_ around the text.
 
-For both bold and italic text, you need to add **_triple asterisks_** or **_triple underscores_** around the text.
+For both bold and italic text, you need to add ***triple asterisks*** or ___triple underscores___ around the text.
 
 For a block quote use >
 
@@ -27,10 +27,10 @@ If you need an ordered list just use numbers followed by periods (e.g., 1., 2., 
 1. This is the first item
 2. This is the second item
 3. This is the third item
-   - This is a sub item of the third item
-     - This is a sub sub item of the third item
+    - This is a sub item of the third item
+        - This is a sub sub item of the third item
 
-If you need an unordered list just use asterisks (e.g., \*, +, -), for sub lists you can also indent them.
+If you need an unordered list just use asterisks (e.g., *, +, -), for sub lists you can also indent them.
 
 - This is the first item of the first list
 - This is the second item of the first list
@@ -38,11 +38,11 @@ If you need an unordered list just use asterisks (e.g., \*, +, -), for sub lists
 
 * This is the first item of the second list
 * This is the second item of the second list
-  - This is a sub item of the second item of the second list
+  * This is a sub item of the second item of the second list
 
-- This is the first item of the third list
-- This is the second item of the third list
-  - This is a sub item of the second item of the third list
++ This is the first item of the third list
++ This is the second item of the third list
+  + This is a sub item of the second item of the third list
 
 If you need to do a code block
 
@@ -50,7 +50,7 @@ If you need to do a code block
 code
 ```
 
-If you need an inline code you can also use `Git commit -m "XXX"`.
+If you need an inline code you can also use `backticks for adding it`.
 
 For a horizontal break, you can use three hyphens or asterisks on a new line:
 
@@ -60,7 +60,7 @@ Firts break
 
 Second break
 
----
+***
 
 If you need to create a link either for a URL or an internal document you can use
 
@@ -76,10 +76,10 @@ This is how an image is inserted
 
 This is how a table is created
 
-| Syntax    | Description | Another title |
-| --------- | :---------: | ------------- |
-| Header    |    Title    | Bla bla bla   |
-| Paragraph |    Text     | More text     |
+| Syntax    | Description |
+| --------- | :---------: |
+| Header    |    Title    |
+| Paragraph |    Text     |
 
 This is a fenced code block
 
