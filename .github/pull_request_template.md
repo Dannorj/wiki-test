@@ -6,20 +6,20 @@
 
 Click on the link that best describes your pull request:
 
-### 📚 [Documentation Update Template](../../compare/main...new-branch-three?template=documentation.md)
+### 📚 [Documentation Update Template](../../compare/main...new-branch-three?template=02-documentation-update.md)
 
 - Adding new documentation
 - Updating existing docs
 - Reorganizing content
 - Fixing documentation issues
 
-### 🐛 [Bug Fix Template](../../compare/main...new-branch-three?template=bugfix.md)
+### 🐛 [Bug Fix Template](../../compare/main...new-branch-three?template=01-bugfix.md)
 
 - Fixing broken links
 - Correcting errors
 - Resolving issues
 
-### ✨ [New Feature Template](../../compare/main...new-branch-three?template=feature.md)
+### ✨ [New Feature Template](../../compare/main...new-branch-three?template=03-new-feature.md)
 
 - Adding new sections
 - Implementing new functionality
@@ -34,7 +34,7 @@ Click on the link that best describes your pull request:
 - [ ] Documentation Update
 - [ ] Bug Fix
 - [ ] New Feature
-- [ ] Other: ******\_\_\_\_******
+- [ ] Other: **\*\***\_\_\_\_**\*\***
 
 **Description:**
 
