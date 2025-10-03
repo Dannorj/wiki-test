@@ -19,7 +19,7 @@
 - [ ] Documentation files
 - [ ] Configuration files
 - [ ] Scripts
-- [ ] Other: ________________
+- [ ] Other: ******\_\_\_\_******
 
 ## Testing
 
