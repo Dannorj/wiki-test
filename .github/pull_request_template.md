@@ -6,11 +6,11 @@
 
 ## 🎯 Choose Your TemplateClick on the link that best describes your pull request:
 
-### 📚 Documentation Update### 📚 [Documentation Update Template](../../compare/main...new-branch-three?template=02-documentation-update.md)
+### 📚 Documentation Update### 📚 [Documentation Update Template](../../compare/main...new-branch-three?expand=1&template=02-documentation-update.md)
 
 **Best for:** Adding new docs, updating existing content, reorganizing documentation
 
-**[→ Use Documentation Template](?template=02-documentation-update.md)**- Adding new documentation
+**[→ Use Documentation Template](?expand=1&template=02-documentation-update.md)**- Adding new documentation
 
 - Updating existing docs
 
@@ -18,7 +18,7 @@
 
 **Best for:** Fixing broken links, correcting errors, resolving issues- Fixing documentation issues
 
-**[→ Use Bug Fix Template](?template=01-bug-fix.md)**
+**[→ Use Bug Fix Template](?expand=1&template=01-bug-fix.md)**
 
 ### 🐛 [Bug Fix Template](../../compare/main...new-branch-three?template=01-bugfix.md)
 
@@ -50,7 +50,7 @@ If none of the above templates fit, you can continue with this general template:
 
 - [ ] New Feature## 🚀 Quick Start (If you want to continue with this template)
 
-- [ ] Other: ******\_\_\_\_******
+- [ ] Other: **\*\***\_\_\_\_**\*\***
 
 **Type of Change:** <!-- Remove the options that don't apply -->
 
