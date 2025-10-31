@@ -12,15 +12,27 @@
 
 ![Displayed K8 Logo Name](./images/Internal/K8S-logo.png "K8 TITLE"){width="80%" height="80%"}
 
+Alternative Github syntax for resizing images:
+
+[[./images/Internal/K8S-logo.png | width = 30% height = 30% alt="K8 3"]]
+
 ## HTML Images
+
+**Only the image with alt text:**
 
 <img alt='K8 1' src="./images/Internal/K8S-logo.png" width="80%" height="80%">
 
-<div style="text-align: center;">
-    <img alt='K8 1' src="./images/Internal/K8S-logo.png" width="80%" height="80%">
-</div>
+**With a paragraph center aligned:**
 
-<img style="text-align: center;" alt='K8 1' src="./images/Internal/K8S-logo.png" width="80%" height="80%">
+<p align="center">
+    <img alt='K8 1' src="./images/Internal/K8S-logo.png" width="50%" height="auto">
+</p>
+
+**With a div center aligned:**
+
+<div align="center">
+    <img alt='K8 1' src="./images/Internal/K8S-logo.png" width="30%" height="30%">
+</div>
 
 > [!TIP]For username is recommended the initial letter of your name and your last name
 >
