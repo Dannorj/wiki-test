@@ -4,9 +4,11 @@
 
 ## Custom Sizes
 
-![Displayed K8 Logo Name Custom Size 1](./images/Internal/K8S-logo.png = 400x400 "K8 Custom Size 1")
+![Displayed K8 Logo Name Custom Size No Title](./images/Internal/K8S-logo.png =400x400)
 
-![Displayed K8 Logo Name Custom Size](./images/Internal/K8S-logo.png "K8 Custom Size 2" = 400x400)
+![Displayed K8 Logo Name Custom Size 1](./images/Internal/K8S-logo.png =400x400 "K8 Custom Size 1")
+
+![Displayed K8 Logo Name Custom Size](./images/Internal/K8S-logo.png "K8 Custom Size 2" =400x400)
 
 ![Displayed K8 Logo Name](./images/Internal/K8S-logo.png "K8 TITLE"){width="80%" height="80%"}
 
