@@ -34,6 +34,6 @@ Alternative Github syntax for resizing images:
     <img alt='K8 1' src="./images/Internal/K8S-logo.png" width="30%" height="30%">
 </div>
 
-> [!TIP]For username is recommended the initial letter of your name and your last name
+> [!TIP] For username is recommended the initial letter of your name and your last name
 >
 > In my case is `dnieto`
